@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Declare a variable 'name' and set it to 'Dane'. Run it through if conditional
+// to check if it is string exact to 'Mary'. It is not, so console outputs
+// 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declare secret and code variables. Set code equal to number 123. If code is number
+// exact to 123, secret is set to string 'super' and code is multiplied by 2 to
+// equal 246. If code is greater than 250, secret is set to string 'duper'. It is not
+// therefore, console outputs 'super'.
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declare and set boolean isStudent to true. Declare two numbers, age and zip, and set to
+// 34 and 55407 respectively. Run through list of IF and ELSEIF conditionals or default to
+// ELSE if none work. isStudent is TRUE and zip is < 80000, therefore console will
+// output 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,11 +130,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX -- variable contents switched. colorOne should be blue, colorTwo should be red
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+// FIX -- colorOne and colorTwo both need to be set to purple.
   colorOne = 'purple';
 }
 */
@@ -147,6 +149,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX -- conditional has OR; should be && for AND
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,7 +163,11 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX -- conditional checks if minAge is less than or equal to age. Instructions ask to
+// compare age to minAge. Should be : if(age >= minAge)
 if(minAge <= age) {
+// FIX -- swap the console.log lines so that if 'age >= minAge' is true, console outputs
+// 'enter' and 'no entry' if false.
   console.log('no entry');
 } else {
   console.log('enter');
